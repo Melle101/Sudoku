@@ -34,7 +34,10 @@
                     <RowDefinition Height="50" />
                 </Grid.RowDefinitions>
                 <Grid x:Name="Square11" Grid.Column="0" Grid.Row="0">
-                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                    <Border BorderBrush="#148D8D" BorderThickness="1">
+                        <TextBlock Text="Number11" TextWrapping="Wrap"/>
+                    </Border>
+
                 </Grid>
                 <Grid x:Name="Square12" Grid.Column="1" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
