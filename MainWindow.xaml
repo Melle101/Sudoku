@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:Sodoku"
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="800">
-    <Grid RenderTransformOrigin="0.164,0.5" Margin="35,0,315,0">
+    <Window.Background>
+        <SolidColorBrush Color="#0E2C40"/>
+    </Window.Background>
+    <Grid RenderTransformOrigin="0.164,0.5" Margin="16,0,315,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150" />
             <ColumnDefinition Width="150" />
@@ -17,32 +20,344 @@
             <RowDefinition Height="150" />
             <RowDefinition Height="150" />
         </Grid.RowDefinitions>
-        <Grid x:Name="Square1" Grid.Column="0" Grid.Row="0">
-            <Border BorderBrush="Black" BorderThickness="4"/>
+        <Grid x:Name="Square1"  Grid.Column="0" Grid.Row="0" Margin="0,16,0,134" Grid.RowSpan="2">
+            <Border BorderBrush="#148D8D" BorderThickness="2"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid x:Name="Square11" Grid.Column="0" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square12" Grid.Column="1" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square13" Grid.Column="2" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square14" Grid.Column="0" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square15" Grid.Column="1" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square16" Grid.Column="2" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square17" Grid.Column="0" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square18" Grid.Column="1" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square19" Grid.Column="2" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+            </Grid>
         </Grid>
-        <Grid x:Name="Square2" Grid.Column="1" Grid.Row="0">
-            <Border BorderBrush="Black" BorderThickness="4"/>
+        <Grid x:Name="Square2" Background="#1A4A5A" Grid.Column="1" Grid.Row="0" Margin="0,16,0,134" Grid.RowSpan="2">
+            <Border BorderBrush="#148D8D" BorderThickness="2"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid x:Name="Square21" Grid.Column="0" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square22" Grid.Column="1" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square23" Grid.Column="2" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square24" Grid.Column="0" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square25" Grid.Column="1" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square26" Grid.Column="2" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square27" Grid.Column="0" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square28" Grid.Column="1" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square29" Grid.Column="2" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+            </Grid>
         </Grid>
-        <Grid x:Name="Square3" Grid.Column="2" Grid.Row="0">
-            <Border BorderBrush="Black" BorderThickness="4"/>
+        <Grid x:Name="Square3"  Grid.Column="2" Grid.Row="0" Margin="0,16,0,134" Grid.RowSpan="2">
+            <Border BorderBrush="#148D8D" BorderThickness="2"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid x:Name="Square31" Grid.Column="0" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square32" Grid.Column="1" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square33" Grid.Column="2" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square34" Grid.Column="0" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square35" Grid.Column="1" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square36" Grid.Column="2" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square37" Grid.Column="0" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square38" Grid.Column="1" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square39" Grid.Column="2" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+            </Grid>
         </Grid>
-        <Grid x:Name="Square4" Grid.Column="0" Grid.Row="1">
-            <Border BorderBrush="Black" BorderThickness="4"/>
+        <Grid x:Name="Square4" Background="#1A4A5A" Grid.Column="0" Grid.Row="1" Margin="0,16,0,134" Grid.RowSpan="2">
+            <Border BorderBrush="#148D8D" BorderThickness="2"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid x:Name="Square41" Grid.Column="0" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square42" Grid.Column="1" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square43" Grid.Column="2" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square44" Grid.Column="0" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square45" Grid.Column="1" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square46" Grid.Column="2" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square47" Grid.Column="0" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square48" Grid.Column="1" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square49" Grid.Column="2" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+            </Grid>
         </Grid>
-        <Grid x:Name="Square5" Grid.Column="1" Grid.Row="1">
-            <Border BorderBrush="Black" BorderThickness="4"/>
+        <Grid x:Name="Square5" Grid.Column="1" Grid.Row="1" Margin="0,16,0,134" Grid.RowSpan="2">
+            <Border BorderBrush="#148D8D" BorderThickness="2"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid x:Name="Square51" Grid.Column="0" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square52" Grid.Column="1" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square53" Grid.Column="2" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square54" Grid.Column="0" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square55" Grid.Column="1" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square56" Grid.Column="2" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square57" Grid.Column="0" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square58" Grid.Column="1" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square59" Grid.Column="2" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+            </Grid>
         </Grid>
-        <Grid x:Name="Square6" Grid.Column="2" Grid.Row="1">
-            <Border BorderBrush="Black" BorderThickness="4"/>
+        <Grid x:Name="Square6" Background="#1A4A5A" Grid.Column="2" Grid.Row="1" Margin="0,16,0,134" Grid.RowSpan="2">
+            <Border BorderBrush="#148D8D" BorderThickness="2"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid x:Name="Square61" Grid.Column="0" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square62" Grid.Column="1" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square63" Grid.Column="2" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square64" Grid.Column="0" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square65" Grid.Column="1" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square66" Grid.Column="2" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square67" Grid.Column="0" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square68" Grid.Column="1" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square69" Grid.Column="2" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+            </Grid>
         </Grid>
-        <Grid x:Name="Square7" Grid.Column="0" Grid.Row="2">
-            <Border BorderBrush="Black" BorderThickness="4"/>
+        <Grid x:Name="Square7" Grid.Column="0" Grid.Row="2" Margin="0,16,0,-16">
+            <Border BorderBrush="#148D8D" BorderThickness="2"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid x:Name="Square71" Grid.Column="0" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square72" Grid.Column="1" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square73" Grid.Column="2" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square74" Grid.Column="0" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square75" Grid.Column="1" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square76" Grid.Column="2" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square77" Grid.Column="0" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square78" Grid.Column="1" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square79" Grid.Column="2" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+            </Grid>
         </Grid>
-        <Grid x:Name="Square8" Grid.Column="1" Grid.Row="2">
-            <Border BorderBrush="Black" BorderThickness="4"/>
+        <Grid x:Name="Square8" Background="#1A4A5A" Grid.Column="1" Grid.Row="2" Margin="0,16,0,-16">
+            <Border BorderBrush="#148D8D" BorderThickness="2"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid x:Name="Square81" Grid.Column="0" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square82" Grid.Column="1" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square83" Grid.Column="2" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square84" Grid.Column="0" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square85" Grid.Column="1" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square86" Grid.Column="2" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square87" Grid.Column="0" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square88" Grid.Column="1" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square89" Grid.Column="2" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+            </Grid>
         </Grid>
-        <Grid x:Name="Square9" Grid.Column="2" Grid.Row="2">
-            <Border BorderBrush="Black" BorderThickness="4"/>
+        <Grid x:Name="Square9" Grid.Column="2" Grid.Row="2" Margin="0,16,0,-16">
+            <Border BorderBrush="#148D8D" BorderThickness="2"/>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="50"/>
@@ -54,6 +369,33 @@
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
+                <Grid x:Name="Square91" Grid.Column="0" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square92" Grid.Column="1" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square93" Grid.Column="2" Grid.Row="0">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square94" Grid.Column="0" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square95" Grid.Column="1" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square96" Grid.Column="2" Grid.Row="1">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square97" Grid.Column="0" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square98" Grid.Column="1" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
+                <Grid x:Name="Square99" Grid.Column="2" Grid.Row="2">
+                    <Border BorderBrush="#148D8D" BorderThickness="1"/>
+                </Grid>
             </Grid>
         </Grid>
     </Grid>
