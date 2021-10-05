@@ -23,6 +23,9 @@ namespace Sodoku
         public MainWindow()
         {
             InitializeComponent();
+
+            int[] cells = new int[9];
+            cells[0] = 1;
         }
     }
 }
