@@ -24,7 +24,7 @@ namespace Sodoku
         {
             InitializeComponent();
 
-            int[] cells = new int[9];
+            int[] cells = new int[9]; 
             cells[0] = 1;
         }
     }
