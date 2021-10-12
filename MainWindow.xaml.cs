@@ -20,12 +20,24 @@ namespace Sodoku
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public int[] callableCells
         {
-            InitializeComponent();
+            get
+            {
+                return Methods.GetCells();
+            }
+        }
+        
 
-            int[] cells = new int[9];
-            cells[0] = 1;
+        public MainWindow()
+            {
+                InitializeComponent();
+
+
+
+
         }
     }
+
+
 }
