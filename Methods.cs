@@ -8,13 +8,24 @@ namespace Sodoku
 {
     class Methods
     {
-        public static int[] GetCells()
+        public static int[,] FillArray()
         {
-            int[] cells = new int[81];
-            cells[0] = 2;
+            int[,] arr = new int[9, 9];
+            
+            for (int i = 0; i < 9; i++)
+            {
+                for (int j = 0; j < 9; j++)
+                {
+                    arr[i, j] = j;
+                }
+            }
 
+            return arr;
+        }
 
-            return cells;
+        public static void FillBoard(int[,] arr)
+        {
+            
         }
     }
 }
