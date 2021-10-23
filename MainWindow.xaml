@@ -35,39 +35,39 @@
                 </Grid.RowDefinitions>
                 <Grid x:Name="Square00" Grid.Column="0" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1" />
-                    <TextBox Name="Cell00" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell00" TextChanged="Cell00_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square01" Grid.Column="1" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell01" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell01" TextChanged="Cell01_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square02" Grid.Column="2" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell02" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell02" TextChanged="Cell02_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square10" Grid.Column="0" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell10" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell10" TextChanged="Cell10_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square11" Grid.Column="1" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell11" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell11" TextChanged="Cell11_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square12" Grid.Column="2" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell12" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell12" TextChanged="Cell12_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square20" Grid.Column="0" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell20" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell20" TextChanged="Cell20_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square21" Grid.Column="1" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell21" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell21" TextChanged="Cell21_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square22" Grid.Column="2" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell22" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell22" TextChanged="Cell22_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
             </Grid>
         </Grid>
@@ -86,39 +86,39 @@
                 </Grid.RowDefinitions>
                 <Grid x:Name="Square03" Grid.Column="0" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell03" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell03" TextChanged="Cell03_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square04" Grid.Column="1" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell04" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell04" TextChanged="Cell04_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square05" Grid.Column="2" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell05" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell05" TextChanged="Cell05_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square13" Grid.Column="0" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell13" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell13" TextChanged="Cell13_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square14" Grid.Column="1" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell14" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell14" TextChanged="Cell14_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square15" Grid.Column="2" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell15" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell15" TextChanged="Cell15_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square23" Grid.Column="0" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell23" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell23" TextChanged="Cell23_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square24" Grid.Column="1" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell24" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell24" TextChanged="Cell24_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square25" Grid.Column="2" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell25" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell25" TextChanged="Cell25_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
             </Grid>
         </Grid>
@@ -137,39 +137,39 @@
                 </Grid.RowDefinitions>
                 <Grid x:Name="Square06" Grid.Column="0" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell06" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell06" TextChanged="Cell06_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square07" Grid.Column="1" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell07" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell07" TextChanged="Cell07_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square08" Grid.Column="2" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell08" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell08" TextChanged="Cell08_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square16" Grid.Column="0" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell16" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell16" TextChanged="Cell16_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square17" Grid.Column="1" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell17" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell17" TextChanged="Cell17_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square18" Grid.Column="2" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell18" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell18" TextChanged="Cell18_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square26" Grid.Column="0" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell26" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell26" TextChanged="Cell26_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square27" Grid.Column="1" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell27" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell27" TextChanged="Cell27_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square28" Grid.Column="2" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell28" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell28" TextChanged="Cell28_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
             </Grid>
         </Grid>
@@ -188,39 +188,39 @@
                 </Grid.RowDefinitions>
                 <Grid x:Name="Square30" Grid.Column="0" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell30" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell30" TextChanged="Cell30_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square31" Grid.Column="1" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell31" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell31" TextChanged="Cell31_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square32" Grid.Column="2" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell32" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell32" TextChanged="Cell32_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square40" Grid.Column="0" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell40" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell40" TextChanged="Cell40_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square41" Grid.Column="1" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell41" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell41" TextChanged="Cell41_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square42" Grid.Column="2" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell42" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell42" TextChanged="Cell42_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square50" Grid.Column="0" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell50" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell50" TextChanged="Cell50_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square51" Grid.Column="1" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell51" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell51" TextChanged="Cell51_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square52" Grid.Column="2" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell52" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell52" TextChanged="Cell52_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
             </Grid>
         </Grid>
@@ -239,39 +239,39 @@
                 </Grid.RowDefinitions>
                 <Grid x:Name="Square33" Grid.Column="0" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell33" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell33" TextChanged="Cell33_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square34" Grid.Column="1" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell34" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell34" TextChanged="Cell34_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square35" Grid.Column="2" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell35" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell35" TextChanged="Cell35_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square43" Grid.Column="0" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell43" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell43" TextChanged="Cell43_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square44" Grid.Column="1" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell44" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell44" TextChanged="Cell44_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square45" Grid.Column="2" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell45" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell45" TextChanged="Cell45_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square53" Grid.Column="0" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell53" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell53" TextChanged="Cell53_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square54" Grid.Column="1" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell54" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell54" TextChanged="Cell54_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square55" Grid.Column="2" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell55" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell55" TextChanged="Cell55_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
             </Grid>
         </Grid>
@@ -290,39 +290,39 @@
                 </Grid.RowDefinitions>
                 <Grid x:Name="Square36" Grid.Column="0" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell36" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell36" TextChanged="Cell36_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square37" Grid.Column="1" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell37" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell37" TextChanged="Cell37_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square38" Grid.Column="2" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell38" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell38" TextChanged="Cell38_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square46" Grid.Column="0" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell46" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell46" TextChanged="Cell46_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square47" Grid.Column="1" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell47" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell47" TextChanged="Cell47_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square48" Grid.Column="2" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell48" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell48" TextChanged="Cell48_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square56" Grid.Column="0" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell56" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell56" TextChanged="Cell56_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square57" Grid.Column="1" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell57" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell57" TextChanged="Cell57_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square58" Grid.Column="2" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell58" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell58" TextChanged="Cell58_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
             </Grid>
         </Grid>
@@ -341,39 +341,39 @@
                 </Grid.RowDefinitions>
                 <Grid x:Name="Square60" Grid.Column="0" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell60" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell60" TextChanged="Cell60_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square61" Grid.Column="1" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell61" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell61" TextChanged="Cell61_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square62" Grid.Column="2" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell62" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell62" TextChanged="Cell62_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square70" Grid.Column="0" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell70" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell70" TextChanged="Cell70_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square71" Grid.Column="1" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell71" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell71" TextChanged="Cell71_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square72" Grid.Column="2" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell72" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell72" TextChanged="Cell72_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square80" Grid.Column="0" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell80" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell80" TextChanged="Cell80_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square81" Grid.Column="1" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell81" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell81" TextChanged="Cell81_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square82" Grid.Column="2" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell82" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell82" TextChanged="Cell82_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
             </Grid>
         </Grid>
@@ -392,39 +392,39 @@
                 </Grid.RowDefinitions>
                 <Grid x:Name="Square63" Grid.Column="0" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell63" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell63" TextChanged="Cell63_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square64" Grid.Column="1" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell64" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell64" TextChanged="Cell64_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square65" Grid.Column="2" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell65" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell65" TextChanged="Cell65_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square73" Grid.Column="0" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell73" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell73" TextChanged="Cell73_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square74" Grid.Column="1" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell74" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell74" TextChanged="Cell74_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square75" Grid.Column="2" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell75" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell75" TextChanged="Cell75_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square83" Grid.Column="0" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell83" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell83" TextChanged="Cell83_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square84" Grid.Column="1" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell84" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell84" TextChanged="Cell84_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square85" Grid.Column="2" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell85" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell85" TextChanged="Cell85_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
             </Grid>
         </Grid>
@@ -443,39 +443,39 @@
                 </Grid.RowDefinitions>
                 <Grid x:Name="Square66" Grid.Column="0" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell66" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell66" TextChanged="Cell66_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square67" Grid.Column="1" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell67" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell67" TextChanged="Cell67_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square68" Grid.Column="2" Grid.Row="0">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell68" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell68" TextChanged="Cell68_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square76" Grid.Column="0" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell76" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell76" TextChanged="Cell76_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square77" Grid.Column="1" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell77" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell77" TextChanged="Cell77_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square78" Grid.Column="2" Grid.Row="1">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell78" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell78" TextChanged="Cell78_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square86" Grid.Column="0" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell86" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell86" TextChanged="Cell86_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square87" Grid.Column="1" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell87" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell87" TextChanged="Cell87_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
                 <Grid x:Name="Square88" Grid.Column="2" Grid.Row="2">
                     <Border BorderBrush="#148D8D" BorderThickness="1"/>
-                    <TextBox Name="Cell88" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
+                    <TextBox Name="Cell88" TextChanged="Cell88_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Background="Transparent" BorderThickness="0" Foreground="White"/>
                 </Grid>
             </Grid>
         </Grid>
