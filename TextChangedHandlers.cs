@@ -746,6 +746,5 @@ namespace Sodoku
             }
 
         }
-
     }
 }

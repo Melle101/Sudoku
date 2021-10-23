@@ -31,13 +31,13 @@ namespace Sodoku
 
             return arr;
         }
-    }
-    public partial class MainWindow
-    {
-       
-    }
-    
 
+        public static void FillBoard(int?[,] arr)
+        {
+            
+        }
+        
+    }
     
     
 }
