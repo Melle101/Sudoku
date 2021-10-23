@@ -20,20 +20,17 @@ namespace Sodoku
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        int?[,] UserBoard = new int?[9, 9];
         
 
         public MainWindow()
             {
             InitializeComponent();
 
-            int[,] Cells = new int[9, 9];
+            int?[,] Cells = new int?[9, 9];
 
 
             Cells = Methods.FillArray();
-
-
-
 
             Cell00.Text = Cells[0, 0].ToString();
             Cell01.Text = Cells[0, 1].ToString();
@@ -55,16 +52,11 @@ namespace Sodoku
             Cell75.Text = Cells[7, 5].ToString();
             Cell85.Text = Cells[8, 5].ToString();
 
-
-
-
-
-
-
-
         }
 
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
-
-
 }
