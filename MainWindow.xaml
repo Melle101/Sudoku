@@ -9,12 +9,12 @@
     <Window.Background>
         <SolidColorBrush Color="#0E2C40"/>
     </Window.Background>
-    <Grid RenderTransformOrigin="0164,05" Margin="16,0,315,0">
+    <Grid RenderTransformOrigin="0164,05" Margin="16,0,2,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150" />
             <ColumnDefinition Width="150" />
             <ColumnDefinition Width="150" />
-            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="300" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="150" />
@@ -283,6 +283,8 @@
                     <ColumnDefinition Width="50" />
                     <ColumnDefinition Width="50" />
                     <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50" />
@@ -480,9 +482,27 @@
                 </Grid>
             </Grid>
         </Grid>
-        <Grid x:Name="ControlsGrid" Grid.Column="3" >
-            <ListView SelectionChanged="ListView_SelectionChanged" Background="#FF1A4A5A"/>
-        </Grid>
+        <ListBox Name="AlgorithmListBox" SelectionChanged="ListBox_SelectionChanged" Background="#FF1A4A5A" SelectionMode="Single" HorizontalAlignment="Left" Width="250" BorderBrush="#FF1A4A5A" Foreground="White" FontSize="16" Margin="50,16,0,84" Grid.Column="3" Grid.ColumnSpan="2">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="2">
+                        <TextBlock Text="{Binding AlgorithmID}" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10" />
+                </Style>
+            </ListBox.Resources>
+        </ListBox>
+        <Button Name="SelectAlgorithm" Grid.Column="3" Margin="150,75,0,25" HorizontalAlignment="Left" Width="150" Background="#FF1A4A5A" Click="SelectAlgorithm_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
     </Grid>
 
 </Window>
