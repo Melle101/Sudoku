@@ -17,6 +17,8 @@ namespace Sodoku
 {
     public partial class MainWindow
     {
+
+
         private void Cell00_TextChanged(object sender, EventArgs e)
         {
             if (System.Text.RegularExpressions.Regex.IsMatch(Cell00.Text, "[^1-9]")) //Cheks so that inputs are only numbers between 1 and 9.
