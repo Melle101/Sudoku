@@ -530,7 +530,7 @@ namespace Sodoku
                                 }
                             }
                         }
-                        Thread.Sleep(0);
+                        //Thread.Sleep(10);
                     }
                 }
             }
